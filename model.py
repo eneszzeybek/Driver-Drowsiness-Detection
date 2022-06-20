@@ -10,7 +10,7 @@ import glob
 from sklearn.model_selection import train_test_split
 
 # GETTING ALL IMAGE FILES PATH BASED ON OS
-images=glob.glob(os.path.join('C:\\Users\\username\\sleep_drowsiness_eye\\train\\dataset\\','*.jpg'))
+images=glob.glob(os.path.join('C:\\Users\\usernames\\sleep_drowsiness_eye\\train\\dataset\\','*.jpg'))
 
 # SPLITTING DATASET INTO TRAIN AND TEST SET
 train_list, test_list=train_test_split(images,test_size=.2,shuffle=True)
